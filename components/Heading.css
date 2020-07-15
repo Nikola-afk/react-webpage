@@ -1,0 +1,50 @@
+.hero {
+  margin-top: 26%;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  color: whitesmoke;
+}
+.hero::after {
+  content: "</>";
+  color: blueviolet;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  right: 50px;
+  font-size: 50px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px whitesmoke;
+}
+.hero-1 {
+  font-size: 55px;
+  left: 250px;
+}
+* {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero {
+    text-align: center;
+    float: none;
+    position: fixed;
+    overflow: auto;
+  }
+}
+
+html,
+body {
+  overflow: auto;
+}

@@ -1,0 +1,110 @@
+* {
+  width: 100%;
+  height: auto;
+}
+#projects {
+  padding-top: 10px;
+  margin-top: 250px;
+  background-image: linear-gradient(62deg, #0f173e 0%, #0f171e 100%);
+}
+.project-grid {
+  width: auto;
+  height: 900px;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.project-1 {
+  float: left;
+  width: 250px;
+  height: 310px;
+  border: 25px solid;
+  border-image-slice: 1;
+  border-image-source: conic-gradient
+    (hsl(100 100% 60%), hsl(100 100% 60%), hsl(100 100% 60%));
+  margin-left: 160%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+.project-1:hover {
+  background-color: darkslateblue;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+p {
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+}
+.projects-h {
+  font-size: 37px;
+  margin-left: -7%;
+  color: whitesmoke;
+  text-align: center;
+}
+hr {
+  width: 100%;
+  height: auto;
+}
+.project-2 {
+  float: left;
+  width: 250px;
+  height: 310px;
+  border: 25px solid;
+  border-image-slice: 1;
+  border-image-source: conic-gradient
+    (hsl(100 100% 60%), hsl(100 100% 60%), hsl(100 100% 60%));
+  padding-left: -50px;
+  margin-left: 280%;
+  margin-top: -310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+.project-2:hover {
+  background-color: darkslateblue;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.project-3 {
+  float: left;
+  width: 250px;
+  height: 310px;
+  border: 25px solid;
+  border-image-slice: 1;
+  border-image-source: conic-gradient
+    (hsl(100 100% 60%), hsl(100 100% 60%), hsl(100 100% 60%));
+  padding-left: -50px;
+  margin-left: 400%;
+  margin-top: -310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+.project-3:hover {
+  background-color: darkslateblue;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 700px) {
+  #projects {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    overflow: auto;
+  }
+}
